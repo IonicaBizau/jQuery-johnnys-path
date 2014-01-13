@@ -5,6 +5,15 @@ A small jQuery plugin that animates an absolute positioned element according to 
 
 ## How to use?
 
+Include **jQuery** and **jQuery-johnnys-path** scripts in your page:
+
+```html
+<script src="path/to/jQuery.js"></script>
+<script src="path/to/jQuery-johnnys-path.js"></script>
+```
+
+Then you will be able to do this:
+
 ```js
 var options = {};
 $("...").johnnysPath(options, [
