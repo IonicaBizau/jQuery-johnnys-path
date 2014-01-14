@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jQuery-johnnys-path : A small jQuery plugin that animates an absolute positioned element according to a path you give." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>jQuery-johnnys-path</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/IonicaBizau/jQuery-johnnys-path">View on GitHub</a>
+
+          <h1 id="project_title">jQuery-johnnys-path</h1>
+          <h2 id="project_tagline">A small jQuery plugin that animates an absolute positioned element according to a path you give.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/IonicaBizau/jQuery-johnnys-path/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/IonicaBizau/jQuery-johnnys-path/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="jquery-johnnys-path" class="anchor" href="#jquery-johnnys-path"><span class="octicon octicon-link"></span></a>jQuery-johnnys-path</h1>
+
+<p>A small jQuery plugin that animates an absolute positioned element according to a path you give.</p>
+
+<h2>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use?</h2>
+
+<p>Include <strong>jQuery</strong> and <strong>jQuery-johnnys-path</strong> scripts in your page:</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/jQuery.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/jQuery-johnnys-path.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<p>Then you will be able to do this:</p>
+
+<div class="highlight highlight-js"><pre><span class="kd">var</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{};</span>
+<span class="nx">$</span><span class="p">(</span><span class="s2">"..."</span><span class="p">).</span><span class="nx">johnnysPath</span><span class="p">(</span><span class="nx">options</span><span class="p">,</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="nx">x</span><span class="o">:</span> <span class="mi">100</span><span class="p">,</span> <span class="nx">y</span><span class="o">:</span> <span class="mi">0</span>   <span class="p">},</span>
+  <span class="p">{</span> <span class="nx">x</span><span class="o">:</span> <span class="mi">100</span><span class="p">,</span> <span class="nx">y</span><span class="o">:</span> <span class="mi">100</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="nx">x</span><span class="o">:</span> <span class="mi">000</span><span class="p">,</span> <span class="nx">y</span><span class="o">:</span> <span class="mi">100</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="nx">x</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>   <span class="nx">y</span><span class="o">:</span> <span class="mi">0</span>   <span class="p">}</span>
+<span class="p">]);</span>
+</pre></div>
+
+<h2>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
+
+<table>
+<thead><tr>
+<th>Name</th>
+            <th>Description</th>
+            <th>Default value</th>
+        </tr></thead>
+<tbody>
+<tr>
+<td><code>d</code></td>
+            <td>
+<code>d</code> represents duration. It can be passed when calling <code>johnnysPath({d: 500}, ...)</code> function or in a point object: <code>{x: 100, y: 200, d: 500}</code>
+</td>
+            <td><code>400</code></td>
+        </tr>
+<tr>
+<td><code>e</code></td>
+            <td>
+<code>e</code> represents easing. Like duration it can be passed in the function options or in a point object.</td>
+            <td><code>"linear"</code></td>
+        </tr>
+</tbody>
+</table><h2>
+<a name="bugs--features" class="anchor" href="#bugs--features"><span class="octicon octicon-link"></span></a>Bugs &amp; Features</h2>
+
+<p>Did you find a bug? Or do you want a feature? Please report any bugs and features here: <a href="https://github.com/IonicaBizau/jQuery-johnnys-path/issues">here</a>.</p>
+
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Do you want to contribute to this project? Great! Follow the following steps:</p>
+
+<ol>
+<li>Search <a href="https://github.com/IonicaBizau/jQuery-johnnys-path/issues">in the repo issues</a> an issue you want to fix.</li>
+<li>If you want to add a new feature that is not added as issue, add it first in the issue list.</li>
+<li>Fork the project to your profile.</li>
+<li>Fix the issue you want to fix.</li>
+<li>Make a pull request.</li>
+</ol><p>I will try to merge the pull requests as fast I can.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>See <a href="https://github.com/IonicaBizau/jQuery-jonnys-path/blob/master/LICENSE">LICENSE</a> file.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">jQuery-johnnys-path maintained by <a href="https://github.com/IonicaBizau">IonicaBizau</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
