@@ -24,6 +24,10 @@ $("...").johnnysPath(options, [
 ]);
 ```
 
+## Demo
+
+[**Click here for a live demo**](http://jsfiddle.net/uj9gC/)
+
 ## Options
 
 <table>
