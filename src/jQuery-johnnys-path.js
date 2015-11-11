@@ -42,7 +42,7 @@
      *              animation is finished
      * */
     $.fn.johnnysPath = function (options, points, callback) {
-        
+
         // merge defaults with options
         var settings = $.extend(defaults, options)
 
@@ -63,7 +63,7 @@
         // current point
         var i = 0;
         function animateRecursive (p) {
-            
+
             // no point, animation finished
             if (!p) { return callback.call($self); }
 
