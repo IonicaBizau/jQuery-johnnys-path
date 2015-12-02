@@ -1,0 +1,24 @@
+{
+  "name": "jquery-johnnys-path",
+  "version": "1.0.0",
+  "description": "A small jQuery plugin that animates an absolute positioned element according to a path you give.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/jQuery-johnnys-path.git"
+  },
+  "keywords": [
+    "path",
+    "jquery",
+    "animation"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/jQuery-johnnys-path/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/jQuery-johnnys-path#readme"
+}
