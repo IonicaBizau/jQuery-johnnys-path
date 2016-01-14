@@ -1,6 +1,6 @@
-# jquery-johnnys-path [![Support this project][donate-now]][paypal-donations]
+# jquery-johnnys-path [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/jquery-johnnys-path.svg)](https://www.npmjs.com/package/jquery-johnnys-path) [![Downloads](https://img.shields.io/npm/dt/jquery-johnnys-path.svg)](https://www.npmjs.com/package/jquery-johnnys-path) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A small jQuery plugin that animates an absolute positioned element according to a path you give.
+> A small jQuery plugin that animates an absolute positioned element according to a path you give.
 
 ## Installation
 
